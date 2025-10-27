@@ -1,0 +1,301 @@
+QUESTIONS,INTENTS
+What are the latest smartphones available?,product_latest
+Do you sell gaming laptops?,product_category_search
+Is the iPhone 14 Pro in stock?,product_availability
+Can I see some red dresses?,product_filter_color
+Show me men's shoes under ?2000.,product_filter_price
+Where is my order?,order_status
+I want to cancel my order.,order_cancel
+Can I return a product I bought last week?,order_return_request
+How do I track my shipment?,order_tracking_help
+I received a damaged item.,order_issue_report
+What payment options do you accept?,payment_methods_info
+Do you have any ongoing discounts?,offers_and_discounts
+Is EMI available on this laptop?,emi_availability
+I was charged twice for my order.,payment_issue
+Can I use two coupons together?,coupon_policy
+How do I reset my password?,account_password_reset
+I want to delete my account.,account_delete_request
+Update my delivery address.,account_update_address
+How can I change my mobile number?,account_update_mobile
+Is my data safe with you?,data_privacy_info
+Do you have a mobile app?,general_app_info
+What is your return policy?,return_policy_info
+Are you delivering in my area?,delivery_area_check
+How can I contact customer support?,customer_support_contact
+Do you have physical stores?,store_availability_info
+Can you recommend a gift for a 10-year-old boy?,product_recommendation
+I’m looking for organic skincare products.,product_category_search
+Do you have size XL in this t-shirt?,product_size_availability
+What’s the best-selling laptop right now?,product_best_seller
+Can I compare this phone with another one?,product_comparison
+When will my order arrive?,order_estimated_delivery
+Can I change my delivery address after ordering?,order_change_address
+Is same-day delivery available?,delivery_speed_options
+Can I schedule a delivery time?,delivery_time_request
+My delivery is late.,delivery_delay_complaint
+How long does a refund take?,refund_time_info
+"My payment failed, what should I do?",payment_failure_help
+Do you support PayPal?,payment_gateway_info
+Is Cash on Delivery available?,cod_availability
+Can I split my payment across two cards?,split_payment_option
+How do I exchange an item?,exchange_process
+I got the wrong item.,wrong_item_received
+Can I return an opened package?,return_policy_detail
+My return hasn’t been picked up yet.,pickup_delay
+Will I get a full refund?,refund_amount_query
+How do I log out of my account?,logout_help
+Can I get a GST invoice?,invoice_gst_request
+How do I unsubscribe from emails?,unsubscribe_request
+Is there a warranty on this product?,product_warranty_info
+Do you offer gift wrapping?,gift_wrap_option
+Are these shoes waterproof?,product_feature_query
+What are people saying about this product?,product_review_request
+Does this come with a charger?,product_accessory_check
+Are there any bundle offers?,bundle_offer_info
+Can I save this product for later?,wishlist_add_request
+Is international shipping available?,international_shipping_info
+How much is the shipping fee?,shipping_fee_info
+Can I get free shipping?,free_shipping_query
+My order says ‘out for delivery’ but hasn't arrived.,delivery_not_received
+What courier do you use?,courier_partner_info
+Can I get a duplicate invoice?,invoice_copy_request
+I applied the wrong coupon.,coupon_change_request
+Where can I enter a promo code?,promo_code_help
+My refund hasn’t been processed.,refund_not_received
+Can I get a partial refund?,partial_refund_query
+The size doesn’t fit me.,size_issue_exchange_request
+Can I get a replacement instead of a refund?,replacement_request
+The product I received is not as described.,product_mismatch_issue
+I want to speak to a human.,human_support_request
+What happens after I request a return?,return_process_info
+How can I update my profile?,profile_update_help
+Can I reorder a previous item?,reorder_request
+Where can I see my wishlist?,wishlist_view_help
+Do you have a rewards program?,loyalty_program_info
+Is this site safe for payments?,payment_security_query
+What are the top-rated products in electronics?,top_rated_products
+Do you have kids’ clothing?,product_category_search_kids
+Are there any eco-friendly products?,eco_friendly_product_request
+Which power bank has the best battery life?,product_best_feature_query
+Can you help me choose a laptop for gaming?,product_assistance_request
+Will I get a call before delivery?,delivery_confirmation_call
+Can I delay the delivery date?,delivery_reschedule_request
+Do you deliver on Sundays?,delivery_day_query
+Why was my order canceled?,order_cancelled_explanation
+How do I know if my order is confirmed?,order_confirmation_status
+Why was I charged extra?,unexpected_charge_issue
+How can I apply a gift card?,gift_card_usage
+Do you have student discounts?,student_discount_query
+Can I change the payment method after placing the order?,change_payment_method
+Is there a price drop alert feature?,price_alert_request
+The product stopped working after a week.,post_delivery_product_issue
+I missed the delivery. What happens now?,missed_delivery_query
+Can I return only part of my order?,partial_return_request
+The wrong size was delivered.,size_mismatch_issue
+How do I cancel a return request?,cancel_return_request
+How do I refer a friend?,referral_program_info
+Can I review a product I bought?,write_review_help
+Can I use the site in a different language?,language_switch_request
+Where can I find your privacy policy?,privacy_policy_info
+Is there a way to contact you by email?,email_contact_request
+What’s the difference between these two models?,product_comparison_detail
+Is this product made in India?,product_origin_query
+Do you have any seasonal sales?,seasonal_sale_info
+Can I see recently viewed products?,view_recently_viewed
+What colors are available for this shirt?,product_color_options
+Can I ship to a different address?,different_shipping_address
+How can I check delivery time before ordering?,pre_order_delivery_estimate
+Why hasn’t my order been shipped yet?,order_not_shipped_query
+I want to cancel one item from my order.,partial_order_cancel_request
+What does “processing” mean in my order status?,order_status_meaning
+Can I pay later?,pay_later_option_query
+How can I redeem my wallet balance?,wallet_redemption_help
+Is there any hidden fee?,hidden_fee_query
+Why can’t I apply my coupon?,coupon_not_working
+Can I pay using international cards?,international_payment_support
+I didn’t receive my full order.,partial_order_received
+There’s a missing accessory in the box.,missing_item_complaint
+Can I return a product after 10 days?,return_after_window
+How do I pack the item for return?,return_packing_help
+I received a used product.,used_product_complaint
+How do I reset my PIN?,reset_account_pin
+How do I become a seller?,become_seller_query
+Do you have a blog or buying guide?,content_resource_request
+Can I get a tax invoice for business use?,business_invoice_request
+Is there a limit to how many products I can order?,order_limit_query
+Is this product allergy-safe?,product_allergy_safety
+Can I see the product manual?,product_manual_request
+How durable is this item?,product_durability_info
+Do you have a smaller version of this?,product_size_variant_request
+Are there any pre-owned items available?,preowned_products_query
+How do I know when my order is dispatched?,order_dispatch_notification
+Can I hold my shipment temporarily?,hold_shipment_request
+What happens if I’m not home during delivery?,delivery_missed_process
+Will I get updates via WhatsApp?,whatsapp_update_request
+My tracking number isn’t working.,tracking_issue
+How do I check my cashback balance?,check_cashback_balance
+Can I combine cashback with a coupon?,combine_cashback_and_coupon
+How do I know if an item is on sale?,product_sale_status
+Why is the price different from last time?,price_change_query
+Are there any first-time buyer discounts?,first_time_discount_query
+I changed my mind. Can I return this?,return_due_to_change_of_mind
+I got someone else’s order!,wrong_order_received
+The pickup guy didn’t come.,pickup_missed_report
+Can I return a product without the box?,return_without_box
+What is your exchange policy?,exchange_policy_info
+How can I check my order history?,view_order_history
+How do I update my email address?,update_email_request
+Do you have 24/7 customer support?,support_availability_query
+Can I leave feedback about my experience?,leave_feedback_request
+Is this product available in my local store?,local_store_availability
+What are the top fashion trends this season?,fashion_trends_info
+Do you have pet supplies?,product_category_pet_supplies
+Can I get this in bulk?,bulk_order_request
+Does this product support fast charging?,product_tech_feature_query
+Show me eco-conscious brands only.,filter_eco_friendly_brands
+Do you offer international delivery tracking?,international_tracking_query
+Can I choose a delivery partner?,choose_delivery_partner_request
+Is contactless delivery available?,contactless_delivery_option
+How do I change the shipping method?,change_shipping_method
+Can I track the delivery agent?,live_delivery_tracking
+Is there any EMI without a credit card?,emi_without_credit_card
+Can I apply a student or military discount?,special_discount_programs
+How do I know if a coupon is still valid?,coupon_validity_check
+Can I pay partially with a gift card and the rest with UPI?,mixed_payment_support
+Do prices include GST?,gst_inclusion_info
+The product arrived too late. Can I return it?,late_delivery_return_request
+What if my return is rejected?,return_rejection_query
+Do I need to print a return label?,return_label_query
+I was charged even though the order was canceled.,charged_after_cancellation
+I returned an item but didn’t get confirmation.,return_confirmation_missing
+Is there a dark mode in the app?,app_dark_mode_info
+Can I share my cart with someone?,share_cart_feature
+Can I use multiple accounts on one app?,multi_account_support
+Where can I see my saved cards?,saved_payment_method_view
+How do I delete my browsing history?,clear_browsing_history
+Does this product have a warranty card included?,warranty_card_included
+What’s the expiry date of this product?,product_expiry_query
+Are the reviews on your site verified?,review_authenticity_query
+Do you sell refurbished items?,refurbished_product_availability
+Can I filter by lowest price first?,sort_by_price_low_to_high
+Can I pick up the order from your warehouse?,self_pickup_request
+Why is shipping taking so long?,shipping_delay_reason
+How do I change my pincode after ordering?,change_shipping_pincode
+Do you ship to remote areas?,remote_location_delivery_query
+Will I be notified when my order is about to arrive?,delivery_alert_request
+How do I apply a festival coupon?,apply_festival_coupon
+What is the minimum spend for free delivery?,free_shipping_threshold
+Do you offer price matching with other sites?,price_match_request
+Can I use multiple promo codes together?,multi_coupon_usage
+Why didn’t I receive my cashback yet?,cashback_not_received
+Do I need to return the free gift too?,return_free_gift_policy
+What are non-returnable items?,non_returnable_product_query
+My return was picked up but no update yet.,return_pickup_update
+My replacement item is also damaged.,replacement_damaged_report
+Can I return items from two orders in one package?,combine_return_package_request
+Can I change the language in the app?,change_app_language
+How do I turn off push notifications?,disable_push_notifications
+Where can I manage saved addresses?,manage_saved_addresses
+Can I view my wishlist on the desktop site?,wishlist_on_website
+Is there a referral reward for friends too?,referral_friend_reward_query
+Show me trending products right now.,show_trending_products
+What are the best gifts under ?500?,gift_suggestions_under_price
+I need something for a birthday present.,gift_occasion_birthday
+Can you recommend a phone with a good camera?,product_recommendation_by_feature
+What’s new in women’s fashion?,new_arrivals_category_query
+Do you deliver on public holidays?,holiday_delivery_query
+Where is my package right now?,live_order_tracking_request
+My delivery date changed. Why?,delivery_date_changed_reason
+Can I change the delivery address mid-way?,change_address_after_order
+What if no one is home during delivery?,missed_delivery_options
+Is cash on delivery available for this item?,cod_availability_check
+Why was my UPI payment declined?,upi_payment_failed
+Do you offer corporate discounts?,corporate_discount_request
+Can I pay using EMI on debit card?,debit_card_emi_query
+I didn’t get my invoice.,invoice_not_received
+How long does a refund take?,refund_time_query
+Can I return a product I opened?,opened_item_return_query
+I got the wrong color.,wrong_color_received
+What if my return gets rejected?,return_rejection_consequence
+Can I exchange for a different item?,exchange_for_different_item
+How do I deactivate my account?,account_deactivation_request
+Can I track my friend’s order if I referred them?,referral_order_tracking
+Where can I apply for a job at your company?,career_opportunities_query
+Do you support voice search in the app?,app_voice_search_support
+Is there an option to donate at checkout?,donation_option_query
+Is this product waterproof?,product_waterproof_query
+Can I see size charts for shoes?,shoe_size_chart_request
+Do you have this item in plus size?,plus_size_availability
+What’s included in the product box?,product_box_contents
+Are these products cruelty-free?,product_cruelty_free_query
+Can I request faster shipping?,expedited_shipping_request
+How do I cancel an order before it ships?,cancel_before_shipping
+Will customs apply for international orders?,international_customs_info
+Is weekend delivery available?,weekend_delivery_option
+Can I combine two orders into one delivery?,combine_orders_request
+Do you support PayPal?,paypal_payment_support
+How do I get a GST invoice?,gst_invoice_request
+My promo code says expired.,promo_code_expired
+How can I top-up my wallet?,wallet_top_up
+Can I use store credit for partial payment?,partial_payment_store_credit
+Can I get a store credit instead of refund?,store_credit_instead_of_refund
+Is return pickup available in my area?,return_pickup_availability
+What should I do if I lost the return label?,lost_return_label
+Do I have to pay for return shipping?,return_shipping_cost_query
+I received an expired product.,expired_product_received
+Can I pause notifications from the app?,pause_app_notifications
+How can I set a reminder to reorder?,set_reorder_reminder
+How do I change the app language to Hindi?,change_language_hindi
+Where can I find my saved searches?,view_saved_searches
+Can I sign in using Google or Facebook?,social_login_support
+Do you have eco-friendly packaging?,eco_friendly_packaging_info
+Which phones support 5G?,product_feature_5g_support
+Can I see only organic products?,filter_organic_products
+Is this makeup suitable for sensitive skin?,product_sensitivity_check
+Do these shoes run true to size?,product_size_fit_query
+"What are some budget headphones under ?1,000?",budget_product_recommendation
+Can I get this in a combo pack?,combo_pack_availability
+Do you sell handmade items?,handmade_product_query
+Is this product gluten-free?,product_gluten_free_check
+What’s the material of this jacket?,product_material_info
+Do you have any student essentials?,student_essential_products_query
+Can I shop by brand?,shop_by_brand_request
+What’s the product weight?,product_weight_query
+Do you offer personalized products?,custom_product_availability
+How many people have bought this product?,product_sales_count_query
+How do I pause my order?,pause_order_request
+Can I schedule a delivery date?,scheduled_delivery_request
+Do you deliver to hostels?,hostel_delivery_query
+Will the delivery agent call before arriving?,pre_delivery_call_check
+Can I change my contact number after placing the order?,change_contact_number_post_order
+What packaging do fragile items come in?,fragile_item_packaging_info
+How many delivery attempts are made?,delivery_attempt_policy
+Do you offer same-day delivery?,same_day_delivery_option
+Why did my order get split into multiple deliveries?,split_order_reason
+Is contactless delivery available during checkout?,contactless_delivery_checkout_option
+Can I apply promo code after placing the order?,apply_coupon_after_order
+How do I redeem my referral bonus?,referral_bonus_redemption
+Can I request a price drop alert?,price_drop_alert_request
+What happens if my payment fails?,payment_failure_process
+Can I pay in installments for furniture?,installment_payment_furniture
+Can I split payment between card and UPI?,split_payment_methods
+How do I use a prepaid wallet for payment?,wallet_payment_usage
+Are there festive offers live now?,festive_sale_query
+Can I combine cashback with store credit?,combine_cashback_credit
+How do I apply a student discount?,student_discount_application
+My refund was processed but not received.,refund_not_received
+How do I return a damaged item?,return_damaged_item
+I didn’t receive my replacement yet.,replacement_delay_query
+What’s your refund policy for digital items?,digital_product_refund_policy
+Can I get a faster refund to wallet?,fast_wallet_refund_request
+I got someone else’s item in my box.,wrong_item_received
+What’s your return window for electronics?,electronics_return_window
+My return request got canceled automatically.,auto_canceled_return_request
+Do I need original packaging for returns?,return_requires_original_packaging
+Why was my return rejected?,return_rejected_reason
+How can I manage my subscriptions?,manage_subscriptions
+Can I add multiple addresses to my profile?,multiple_address_support
+Is there a loyalty or reward program?,loyalty_program_info
+How do I update my profile picture?,update_profile_picture
+Can I access my order history offline?,offline_order_history_access
